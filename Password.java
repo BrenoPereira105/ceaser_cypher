@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Password2{
+public class Password{
 
      static String Calculator(String s, int a){
 
@@ -13,7 +13,7 @@ public class Password2{
      }
      public static void main(String[] args){
       
-           //user will run with java <Password2(program_name)> <string> <number>            
+           //user will run with 'java Password <string> <number>'            
            String s = args[0];
            int a = Integer.parseInt(args[1]);
            
